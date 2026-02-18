@@ -27,6 +27,10 @@ Alzheimer's disease is a neurodegenerative disorder where early detection is cri
 ## Model Comparison
 Logistic Regression outperformed Random Forest on this dataset. Early-stage detection is critical for clinical intervention. Random Forest errors highlight difficulty distinguishing adjacent disease stages.
 
+## Visualizations
+![Confusion Matrix](figures/confusion_matrix.png)
+![Error Examples](figures/misclassified_examples.png)
+
 ## Error Analysis
 - Visualized misclassified images
 - Most errors occur between adjacent stages (Very Mild ↔ Mild)
